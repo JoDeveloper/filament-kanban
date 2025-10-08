@@ -2,6 +2,10 @@
 
 All notable changes to `filament-kanban` will be documented in this file.
 
+## 1.0.2 - 2025-10-08
+
+**Full Changelog**: https://github.com/JoDeveloper/filament-kanban/compare/1.0.1...1.0.2
+
 ## 1.0.1 - 2025-10-08
 
 **Full Changelog**: https://github.com/JoDeveloper/filament-kanban/compare/1.0...1.0.1
@@ -225,6 +229,7 @@ class UserDashboard extends KanbanBoard
 
 
 
+
 ```
 Now you can have just this:
 
@@ -238,6 +243,7 @@ class UserDashboard extends KanbanBoard
     protected static ?string $model = User::class;
     protected static ?string $statusEnum = UserStatus::class;
 }
+
 
 
 
@@ -345,6 +351,7 @@ class UserDashboard extends KanbanBoard
 
 
 
+
 ```
 Now you can have just this:
 
@@ -358,6 +365,7 @@ class UserDashboard extends KanbanBoard
     protected static ?string $model = User::class;
     protected static ?string $statusEnum = UserStatus::class;
 }
+
 
 
 
