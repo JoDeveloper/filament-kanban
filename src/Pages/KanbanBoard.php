@@ -80,10 +80,4 @@ class KanbanBoard extends Page implements HasSchemas
     {
         return static::$model::query();
     }
-
-    // Fix for Livewire 3 + Laravel 11 compatibility issue
-    public function getErrorBag()
-    {
-        return parent::getErrorBag() ?: new \Illuminate\Support\MessageBag();
-    }
 }
