@@ -1,6 +1,6 @@
 <?php
 
-namespace Mokhosh\FilamentKanban\Pages;
+namespace Jodeveloper\FilamentKanban\Pages;
 
 use BackedEnum;
 use Filament\Pages\Page;
@@ -8,8 +8,8 @@ use Filament\Schemas\Concerns\InteractsWithSchemas;
 use Filament\Schemas\Contracts\HasSchemas;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Collection;
-use Mokhosh\FilamentKanban\Concerns\HasEditRecordModal;
-use Mokhosh\FilamentKanban\Concerns\HasStatusChange;
+use Jodeveloper\FilamentKanban\Concerns\HasEditRecordModal;
+use Jodeveloper\FilamentKanban\Concerns\HasStatusChange;
 use UnitEnum;
 
 class KanbanBoard extends Page implements HasSchemas
@@ -46,7 +46,7 @@ class KanbanBoard extends Page implements HasSchemas
     protected function records(): Collection
     {
         return $this->getEloquentQuery()
-            ->when(method_exists(static::$model, 'scopeOrdered'), fn ($query) => $query->ordered())
+            ->when(method_exists(static::$model, 'scopeOrdered'), fn($query) => $query->ordered())
             ->get();
     }
 

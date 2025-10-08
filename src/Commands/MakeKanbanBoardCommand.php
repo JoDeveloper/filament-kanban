@@ -1,6 +1,6 @@
 <?php
 
-namespace Mokhosh\FilamentKanban\Commands;
+namespace Jodeveloper\FilamentKanban\Commands;
 
 use Illuminate\Console\GeneratorCommand;
 

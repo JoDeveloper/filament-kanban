@@ -1,6 +1,6 @@
 <?php
 
-namespace Mokhosh\FilamentKanban\Tests\Providers;
+namespace Jodeveloper\FilamentKanban\Tests\Providers;
 
 use Filament\Http\Middleware\Authenticate;
 use Filament\Http\Middleware\DisableBladeIconComponents;
@@ -14,9 +14,9 @@ use Illuminate\Routing\Middleware\SubstituteBindings;
 use Illuminate\Session\Middleware\AuthenticateSession;
 use Illuminate\Session\Middleware\StartSession;
 use Illuminate\View\Middleware\ShareErrorsFromSession;
-use Mokhosh\FilamentKanban\Tests\Pages\TestBoard;
-use Mokhosh\FilamentKanban\Tests\Pages\TestBoardWithCustomViews;
-use Mokhosh\FilamentKanban\Tests\Pages\TestBoardWithUlidTask;
+use Jodeveloper\FilamentKanban\Tests\Pages\TestBoard;
+use Jodeveloper\FilamentKanban\Tests\Pages\TestBoardWithCustomViews;
+use Jodeveloper\FilamentKanban\Tests\Pages\TestBoardWithUlidTask;
 
 class TestPanelProvider extends PanelProvider
 {
@@ -30,9 +30,7 @@ class TestPanelProvider extends PanelProvider
                 TestBoardWithCustomViews::class,
                 TestBoardWithUlidTask::class,
             ])
-            ->resources([
-
-            ])
+            ->resources([])
             ->middleware([
                 EncryptCookies::class,
                 AddQueuedCookiesToResponse::class,

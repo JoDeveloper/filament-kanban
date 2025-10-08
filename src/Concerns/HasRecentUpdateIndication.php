@@ -1,6 +1,6 @@
 <?php
 
-namespace Mokhosh\FilamentKanban\Concerns;
+namespace Jodeveloper\FilamentKanban\Concerns;
 
 use Illuminate\Database\Eloquent\Casts\Attribute;
 
@@ -10,7 +10,7 @@ trait HasRecentUpdateIndication
     public function justUpdated(): Attribute
     {
         return Attribute::make(
-            get: fn () => now()->diffInSeconds($this->{static::UPDATED_AT}) < 3,
+            get: fn() => now()->diffInSeconds($this->{static::UPDATED_AT}) < 3,
         );
     }
 }

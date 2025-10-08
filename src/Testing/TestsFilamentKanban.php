@@ -1,6 +1,6 @@
 <?php
 
-namespace Mokhosh\FilamentKanban\Testing;
+namespace Jodeveloper\FilamentKanban\Testing;
 
 use Livewire\Features\SupportTesting\Testable;
 

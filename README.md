@@ -1,25 +1,24 @@
 # Add kanban boards to your Filament pages
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/mokhosh/filament-kanban.svg?style=flat-square)](https://packagist.org/packages/mokhosh/filament-kanban)
-[![Total Downloads](https://img.shields.io/packagist/dt/mokhosh/filament-kanban.svg?style=flat-square)](https://packagist.org/packages/mokhosh/filament-kanban)
-
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/Jodeveloper\filament-kanban.svg?style=flat-square)](https://packagist.org/packages/Jodeveloper\filament-kanban)
+[![Total Downloads](https://img.shields.io/packagist/dt/Jodeveloper\filament-kanban.svg?style=flat-square)](https://packagist.org/packages/Jodeveloper\filament-kanban)
 
 Easily add Kanban board pages to your Filament panels.
 
-![Customized kanban board views](https://raw.githubusercontent.com/mokhosh/filament-kanban/main/images/client-kanban.png)
+![Customized kanban board views](https://raw.githubusercontent.com/Jodeveloper\filament-kanban/main/images/client-kanban.png)
 
-![Customized edit modal](https://raw.githubusercontent.com/mokhosh/filament-kanban/main/images/client-edit.png)
+![Customized edit modal](https://raw.githubusercontent.com/Jodeveloper\filament-kanban/main/images/client-edit.png)
 
-![Cards with progress indicator](https://raw.githubusercontent.com/mokhosh/filament-kanban/main/images/prospect-kanban.png)
+![Cards with progress indicator](https://raw.githubusercontent.com/Jodeveloper\filament-kanban/main/images/prospect-kanban.png)
 
-![Another example by @Log1x](https://raw.githubusercontent.com/mokhosh/filament-kanban/main/images/organizer-board.png)
+![Another example by @Log1x](https://raw.githubusercontent.com/Jodeveloper\filament-kanban/main/images/organizer-board.png)
 
 ## Installation
 
 You can install the package via composer:
 
 ```bash
-composer require mokhosh/filament-kanban
+composer require Jodeveloper\filament-kanban
 ```
 
 Publish the assets so the styles are correct:
@@ -40,7 +39,7 @@ I recommend you create a string backed `Enum` to define your statuses.
 You can use our `IsKanbanStatus` trait, so you can easily transform your enum cases for the Kanban board using the `statuses` method on your enum.
 
 ```php
-use Mokhosh\FilamentKanban\Concerns\IsKanbanStatus;
+use Jodeveloper\FilamentKanban\Concerns\IsKanbanStatus;
 
 enum UserStatus: string
 {
@@ -110,6 +109,7 @@ protected function statuses(): Collection
 ```
 
 You can also override these methods to change your board's behavior when records are dragged and dropped:
+
 - `onStatusChanged` which defines what happens when a record is moved between statuses.
 - `onSortChanged` which defines what happens when a record is moved inside the same status.
 
@@ -270,7 +270,7 @@ Are you a visual learner? I have created some Youtube videos to get you started 
 > [!WARNING]
 > These videos are recorded with version 1.x of the package.
 > It is now much simpler to use the package, and requires much less code from you.
-> 
+>
 > Hopefully, version 2.x is simple enough to not require videos, but you can still learn a thing or two from these.
 
 [![Creating a Kanban Board in FilamentPHP using filament-kanban: Part 1, Basic setup](https://i3.ytimg.com/vi/GquNTj50E78/maxresdefault.jpg)](https://www.youtube.com/watch?v=GquNTj50E78)
@@ -289,9 +289,9 @@ Are you a visual learner? I have created some Youtube videos to get you started 
 
 ## Demos and Examples
 
-- [Kanban Example](https://github.com/mokhosh/filament-kanban-example)
+- [Kanban Example](https://github.com/Jodeveloper\filament-kanban-example)
 
-- [Kanban Todo](https://github.com/mokhosh/filament-kanban-todo)
+- [Kanban Todo](https://github.com/Jodeveloper\filament-kanban-todo)
 
 ## Testing
 
