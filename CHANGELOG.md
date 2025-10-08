@@ -2,21 +2,25 @@
 
 All notable changes to `filament-kanban` will be documented in this file.
 
+## 1.0.1 - 2025-10-08
+
+**Full Changelog**: https://github.com/JoDeveloper/filament-kanban/compare/1.0...1.0.1
+
 ## v2.11.0 - 2025-07-19
 
 ### What's Changed in v2.11.0
 
-* Bump dependabot/fetch-metadata from 2.3.0 to 2.4.0 by @dependabot[bot] in <https://github.com/Jodeveloper/filament-kanban/pull/77>
-* fix: fixed method signatures by @chinmaypurav in <https://github.com/Jodeveloper/filament-kanban/pull/80>
-* Bump stefanzweifel/git-auto-commit-action from 5 to 6 by @dependabot[bot] in <https://github.com/Jodeveloper/filament-kanban/pull/78>
-* Fix issue #81 by @bencarlson in <https://github.com/Jodeveloper/filament-kanban/pull/82>
+* Bump dependabot/fetch-metadata from 2.3.0 to 2.4.0 by @dependabot[bot] in [https://github.com/Jodeveloper/filament-kanban/pull/77](https://github.com/Jodeveloper/filament-kanban/pull/77)
+* fix: fixed method signatures by @chinmaypurav in [https://github.com/Jodeveloper/filament-kanban/pull/80](https://github.com/Jodeveloper/filament-kanban/pull/80)
+* Bump stefanzweifel/git-auto-commit-action from 5 to 6 by @dependabot[bot] in [https://github.com/Jodeveloper/filament-kanban/pull/78](https://github.com/Jodeveloper/filament-kanban/pull/78)
+* Fix issue #81 by @bencarlson in [https://github.com/Jodeveloper/filament-kanban/pull/82](https://github.com/Jodeveloper/filament-kanban/pull/82)
 
 ### New Contributors for v2.11.0
 
-* @chinmaypurav made their first contribution in <https://github.com/Jodeveloper/filament-kanban/pull/80>
-* @bencarlson made their first contribution in <https://github.com/Jodeveloper/filament-kanban/pull/82>
+* @chinmaypurav made their first contribution in [https://github.com/Jodeveloper/filament-kanban/pull/80](https://github.com/Jodeveloper/filament-kanban/pull/80)
+* @bencarlson made their first contribution in [https://github.com/Jodeveloper/filament-kanban/pull/82](https://github.com/Jodeveloper/filament-kanban/pull/82)
 
-**Full Changelog**: <https://github.com/Jodeveloper/filament-kanban/compare/v2.10.0...v2.11.0>
+**Full Changelog**: [https://github.com/Jodeveloper/filament-kanban/compare/v2.10.0...v2.11.0](https://github.com/Jodeveloper/filament-kanban/compare/v2.10.0...v2.11.0)
 
 ## v2.10.0 - 2025-03-09
 
@@ -24,83 +28,83 @@ All notable changes to `filament-kanban` will be documented in this file.
 
 * Support Laravel v12
 * Make date diffing absolute
-* Bump dependabot/fetch-metadata from 1.6.0 to 2.0.0 by @dependabot in <https://github.com/Jodeveloper/filament-kanban/pull/27>
-* Merge 2.x changes by @mokhosh in <https://github.com/Jodeveloper/filament-kanban/pull/32>
-* Bump aglipanci/laravel-pint-action from 2.3.1 to 2.4 by @dependabot in <https://github.com/Jodeveloper/filament-kanban/pull/34>
-* Bump dependabot/fetch-metadata from 2.0.0 to 2.1.0 by @dependabot in <https://github.com/Jodeveloper/filament-kanban/pull/37>
-* Bump dependabot/fetch-metadata from 2.1.0 to 2.2.0 by @dependabot in <https://github.com/Jodeveloper/filament-kanban/pull/48>
-* docs: Update README.md by @Dipesh79 in <https://github.com/Jodeveloper/filament-kanban/pull/67>
-* Bump dependabot/fetch-metadata from 2.2.0 to 2.3.0 by @dependabot in <https://github.com/Jodeveloper/filament-kanban/pull/68>
-* Bump aglipanci/laravel-pint-action from 2.4 to 2.5 by @dependabot in <https://github.com/Jodeveloper/filament-kanban/pull/69>
+* Bump dependabot/fetch-metadata from 1.6.0 to 2.0.0 by @dependabot in [https://github.com/Jodeveloper/filament-kanban/pull/27](https://github.com/Jodeveloper/filament-kanban/pull/27)
+* Merge 2.x changes by @mokhosh in [https://github.com/Jodeveloper/filament-kanban/pull/32](https://github.com/Jodeveloper/filament-kanban/pull/32)
+* Bump aglipanci/laravel-pint-action from 2.3.1 to 2.4 by @dependabot in [https://github.com/Jodeveloper/filament-kanban/pull/34](https://github.com/Jodeveloper/filament-kanban/pull/34)
+* Bump dependabot/fetch-metadata from 2.0.0 to 2.1.0 by @dependabot in [https://github.com/Jodeveloper/filament-kanban/pull/37](https://github.com/Jodeveloper/filament-kanban/pull/37)
+* Bump dependabot/fetch-metadata from 2.1.0 to 2.2.0 by @dependabot in [https://github.com/Jodeveloper/filament-kanban/pull/48](https://github.com/Jodeveloper/filament-kanban/pull/48)
+* docs: Update README.md by @Dipesh79 in [https://github.com/Jodeveloper/filament-kanban/pull/67](https://github.com/Jodeveloper/filament-kanban/pull/67)
+* Bump dependabot/fetch-metadata from 2.2.0 to 2.3.0 by @dependabot in [https://github.com/Jodeveloper/filament-kanban/pull/68](https://github.com/Jodeveloper/filament-kanban/pull/68)
+* Bump aglipanci/laravel-pint-action from 2.4 to 2.5 by @dependabot in [https://github.com/Jodeveloper/filament-kanban/pull/69](https://github.com/Jodeveloper/filament-kanban/pull/69)
 
 ### New Contributors for v2.10.0
 
-* @mokhosh made their first contribution in <https://github.com/Jodeveloper/filament-kanban/pull/32>
-* @Dipesh79 made their first contribution in <https://github.com/Jodeveloper/filament-kanban/pull/67>
+* @mokhosh made their first contribution in [https://github.com/Jodeveloper/filament-kanban/pull/32](https://github.com/Jodeveloper/filament-kanban/pull/32)
+* @Dipesh79 made their first contribution in [https://github.com/Jodeveloper/filament-kanban/pull/67](https://github.com/Jodeveloper/filament-kanban/pull/67)
 
-**Full Changelog**: <https://github.com/Jodeveloper/filament-kanban/compare/v2.7.0...v2.10.0>
+**Full Changelog**: [https://github.com/Jodeveloper/filament-kanban/compare/v2.7.0...v2.10.0](https://github.com/Jodeveloper/filament-kanban/compare/v2.7.0...v2.10.0)
 
 ## v2.9.0 - 2024-10-01
 
 ### What's Changed in v2.9.0
 
-* Allow custom stub file to be used for board. by @Cybrarist in <https://github.com/Jodeveloper/filament-kanban/pull/58>
+* Allow custom stub file to be used for board. by @Cybrarist in [https://github.com/Jodeveloper/filament-kanban/pull/58](https://github.com/Jodeveloper/filament-kanban/pull/58)
 
 ### New Contributors for v2.9.0
 
-* @Cybrarist made their first contribution in <https://github.com/Jodeveloper/filament-kanban/pull/58>
+* @Cybrarist made their first contribution in [https://github.com/Jodeveloper/filament-kanban/pull/58](https://github.com/Jodeveloper/filament-kanban/pull/58)
 
-**Full Changelog**: <https://github.com/Jodeveloper/filament-kanban/compare/v2.8.0...v2.9.0>
+**Full Changelog**: [https://github.com/Jodeveloper/filament-kanban/compare/v2.8.0...v2.9.0](https://github.com/Jodeveloper/filament-kanban/compare/v2.8.0...v2.9.0)
 
 ## v2.8.0 - 2024-04-08
 
 ### What's Changed in v2.8.0
 
-* Add edit modal slideover option by @ryanmortier in <https://github.com/Jodeveloper/filament-kanban/pull/31>
+* Add edit modal slideover option by @ryanmortier in [https://github.com/Jodeveloper/filament-kanban/pull/31](https://github.com/Jodeveloper/filament-kanban/pull/31)
 
 ### New Contributors for v2.8.0
 
-* @ryanmortier made their first contribution in <https://github.com/Jodeveloper/filament-kanban/pull/31>
+* @ryanmortier made their first contribution in [https://github.com/Jodeveloper/filament-kanban/pull/31](https://github.com/Jodeveloper/filament-kanban/pull/31)
 
-**Full Changelog**: <https://github.com/Jodeveloper/filament-kanban/compare/v2.7.0...v2.8.0>
+**Full Changelog**: [https://github.com/Jodeveloper/filament-kanban/compare/v2.7.0...v2.8.0](https://github.com/Jodeveloper/filament-kanban/compare/v2.7.0...v2.8.0)
 
 ## v2.7.0 - 2024-03-12
 
 ### What's Changed in v2.7.0
 
-* Add Laravell 11 support by @mokhosh and @gnovaro in <https://github.com/Jodeveloper/filament-kanban/pull/24>
+* Add Laravell 11 support by @mokhosh and @gnovaro in [https://github.com/Jodeveloper/filament-kanban/pull/24](https://github.com/Jodeveloper/filament-kanban/pull/24)
 
 ### New Contributors for v2.7.0
 
-* @gnovaro made their first contribution in <https://github.com/Jodeveloper/filament-kanban/pull/24>
+* @gnovaro made their first contribution in [https://github.com/Jodeveloper/filament-kanban/pull/24](https://github.com/Jodeveloper/filament-kanban/pull/24)
 
-**Full Changelog**: <https://github.com/Jodeveloper/filament-kanban/compare/v2.6.1...v2.7.0>
+**Full Changelog**: [https://github.com/Jodeveloper/filament-kanban/compare/v2.6.1...v2.7.0](https://github.com/Jodeveloper/filament-kanban/compare/v2.6.1...v2.7.0)
 
 ## v2.6.1 - 2024-03-07
 
 ### What's Changed in v2.6.1
 
-* Fix the overflow hidden styling by @hussain4real in <https://github.com/Jodeveloper/filament-kanban/pull/21>
+* Fix the overflow hidden styling by @hussain4real in [https://github.com/Jodeveloper/filament-kanban/pull/21](https://github.com/Jodeveloper/filament-kanban/pull/21)
 
 ### New Contributors for v2.6.1
 
-* @hussain4real made their first contribution in <https://github.com/Jodeveloper/filament-kanban/pull/21>
+* @hussain4real made their first contribution in [https://github.com/Jodeveloper/filament-kanban/pull/21](https://github.com/Jodeveloper/filament-kanban/pull/21)
 
-**Full Changelog**: <https://github.com/Jodeveloper/filament-kanban/compare/v2.6.0...v2.6.1>
+**Full Changelog**: [https://github.com/Jodeveloper/filament-kanban/compare/v2.6.0...v2.6.1](https://github.com/Jodeveloper/filament-kanban/compare/v2.6.0...v2.6.1)
 
 ## v2.6.0 - 2024-03-07
 
 ### What's Changed in v2.6.0
 
-* Update KanbanBoard to not require a status property by @brenjt in <https://github.com/Jodeveloper/filament-kanban/pull/20>
-* Add getEloquentQuery in queries by @aislandener in <https://github.com/Jodeveloper/filament-kanban/pull/19>
+* Update KanbanBoard to not require a status property by @brenjt in [https://github.com/Jodeveloper/filament-kanban/pull/20](https://github.com/Jodeveloper/filament-kanban/pull/20)
+* Add getEloquentQuery in queries by @aislandener in [https://github.com/Jodeveloper/filament-kanban/pull/19](https://github.com/Jodeveloper/filament-kanban/pull/19)
 
 ### New Contributors for v2.6.0
 
-* @brenjt made their first contribution in <https://github.com/Jodeveloper/filament-kanban/pull/20>
-* @aislandener made their first contribution in <https://github.com/Jodeveloper/filament-kanban/pull/19>
+* @brenjt made their first contribution in [https://github.com/Jodeveloper/filament-kanban/pull/20](https://github.com/Jodeveloper/filament-kanban/pull/20)
+* @aislandener made their first contribution in [https://github.com/Jodeveloper/filament-kanban/pull/19](https://github.com/Jodeveloper/filament-kanban/pull/19)
 
-**Full Changelog**: <https://github.com/Jodeveloper/filament-kanban/compare/v2.5.0...v2.6.0>
+**Full Changelog**: [https://github.com/Jodeveloper/filament-kanban/compare/v2.5.0...v2.6.0](https://github.com/Jodeveloper/filament-kanban/compare/v2.5.0...v2.6.0)
 
 ## v2.5.0 - 2024-03-06
 
@@ -114,7 +118,7 @@ Save relationships too when saving a record.
 
 ## v2.3.0 - 2024-02-25
 
-* fixes <https://github.com/Jodeveloper/filament-kanban/issues/14>
+* fixes [https://github.com/Jodeveloper/filament-kanban/issues/14](https://github.com/Jodeveloper/filament-kanban/issues/14)
 * deprecate has recent update indication trait
 
 ## v2.2.0 - 2024-02-15
@@ -220,8 +224,8 @@ class UserDashboard extends KanbanBoard
 
 
 
-```
 
+```
 Now you can have just this:
 
 ```php
@@ -248,8 +252,8 @@ class UserDashboard extends KanbanBoard
 
 
 
-```
 
+```
 ## Version 2.0.0 🎉 - 2024-02-07
 
 ### Big update with breaking changes
@@ -340,8 +344,8 @@ class UserDashboard extends KanbanBoard
 
 
 
-```
 
+```
 Now you can have just this:
 
 ```php
@@ -369,8 +373,8 @@ class UserDashboard extends KanbanBoard
 
 
 
-```
 
+```
 ## v1.11.0 - 2024-01-30
 
 now you can customize views per kanban board
@@ -413,7 +417,7 @@ fix `Livewire property ['editModalFormState...'] cannot be found on component: [
 
 ## v1.8.0 - 2023-12-29
 
-Two fixes by <https://github.com/Log1x>
+Two fixes by [https://github.com/Log1x](https://github.com/Log1x)
 🩹 Fix nullable state property
 🩹 Fix sorting when using SPA mode
 
