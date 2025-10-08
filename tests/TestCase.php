@@ -14,10 +14,10 @@ use Filament\Tables\TablesServiceProvider;
 use Filament\Widgets\WidgetsServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Database\Schema\Blueprint;
-use Livewire\LivewireServiceProvider;
 use Jodeveloper\FilamentKanban\FilamentKanbanServiceProvider;
 use Jodeveloper\FilamentKanban\Tests\Models\User;
 use Jodeveloper\FilamentKanban\Tests\Providers\TestPanelProvider;
+use Livewire\LivewireServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
 use RyanChandler\BladeCaptureDirective\BladeCaptureDirectiveServiceProvider;
 
@@ -28,13 +28,13 @@ class TestCase extends Orchestra
         parent::setUp();
 
         Factory::guessFactoryNamesUsing(
-            fn(string $modelName) => 'Jodeveloper\\FilamentKanban\\Tests\\Factories\\' . class_basename($modelName) . 'Factory'
+            fn (string $modelName) => 'Jodeveloper\\FilamentKanban\\Tests\\Factories\\' . class_basename($modelName) . 'Factory'
         );
 
         $this->setUpDatabase($this->app);
 
         // Fix for Livewire 3 + Laravel 11 compatibility issue
-        view()->share('errors', new \Illuminate\Support\ViewErrorBag());
+        view()->share('errors', new \Illuminate\Support\ViewErrorBag);
     }
 
     protected function getPackageProviders($app)
