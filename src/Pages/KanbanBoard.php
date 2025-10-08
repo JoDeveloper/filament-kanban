@@ -46,7 +46,7 @@ class KanbanBoard extends Page implements HasSchemas
     protected function records(): Collection
     {
         return $this->getEloquentQuery()
-            ->when(method_exists(static::$model, 'scopeOrdered'), fn($query) => $query->ordered())
+            ->when(method_exists(static::$model, 'scopeOrdered'), fn ($query) => $query->ordered())
             ->get();
     }
 
