@@ -5,6 +5,10 @@
 
 Easily add Kanban board pages to your Filament panels.
 
+This package is a form of [filament-kanban](https://github.com/mokhosh/filament-kanban) made by [Mo Khosh](https://github.com/mokhosh). All credit goes to him.
+
+This version just adds support for Filament 4.
+
 ![Customized kanban board views](https://raw.githubusercontent.com/Jodeveloper\filament-kanban/main/images/client-kanban.png)
 
 ![Customized edit modal](https://raw.githubusercontent.com/Jodeveloper\filament-kanban/main/images/client-edit.png)
